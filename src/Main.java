@@ -21,9 +21,24 @@ public class Main {
         // Задание 2
 
         System.out.println("Задание 2");
-        System.out.println(Arrays.toString(weight));
-        System.out.println(Arrays.toString(gramm));
-        System.out.println(Arrays.toString(random));
+        for (int i = 0; i < weight.length; i++ ) {
+            if (i < weight.length - 1) {
+                System.out.print(weight[i] + ", ");}
+            else {
+                System.out.println(weight[i]);}
+        }
+        for (int i = 0; i < gramm.length; i++ ) {
+            if (i < gramm.length - 1) {
+                System.out.print(gramm[i] + ", ");}
+            else {
+                System.out.println(gramm[i]);}
+        }
+        for (int i = 0; i < random.length; i++ ) {
+            if (i < random.length - 1) {
+                System.out.print(random[i] + ", ");}
+            else {
+                System.out.println(random[i]);}
+        }
 
         // Задание 3
 
